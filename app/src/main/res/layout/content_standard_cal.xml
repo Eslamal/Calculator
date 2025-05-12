@@ -21,6 +21,9 @@
         android:layout_alignParentStart="true"
         android:editable="false"
         android:textAlignment="textEnd"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
         android:gravity="end" />
 
     <EditText
@@ -32,7 +35,10 @@
         android:layout_alignParentStart="true"
         android:editable="false"
         android:textAlignment="textEnd"
-        android:gravity="end" />
+        android:gravity="end"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -43,7 +49,9 @@
         android:layout_below="@+id/editText2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="10dp"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -54,7 +62,9 @@
         android:layout_alignBottom="@+id/clear"
         android:layout_toRightOf="@+id/clear"
         android:layout_toEndOf="@+id/clear"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        />
 
     <Button
         android:layout_width="wrap_content"
@@ -64,7 +74,9 @@
         android:layout_below="@+id/clear"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -74,7 +86,8 @@
         android:layout_alignBottom="@+id/num7"
         android:layout_toRightOf="@+id/num7"
         android:layout_toEndOf="@+id/num7"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -84,7 +97,8 @@
         android:layout_alignBottom="@+id/num8"
         android:layout_toRightOf="@+id/num8"
         android:layout_toEndOf="@+id/num8"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -94,7 +108,9 @@
         android:layout_below="@+id/num7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -104,7 +120,8 @@
         android:layout_alignBottom="@+id/num4"
         android:layout_toRightOf="@+id/num4"
         android:layout_toEndOf="@+id/num4"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -114,7 +131,8 @@
         android:layout_alignBottom="@+id/num5"
         android:layout_toRightOf="@+id/num5"
         android:layout_toEndOf="@+id/num5"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -124,7 +142,9 @@
         android:layout_below="@+id/num4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -134,7 +154,8 @@
         android:layout_alignBottom="@+id/num1"
         android:layout_alignLeft="@+id/num5"
         android:layout_alignStart="@+id/num5"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -144,7 +165,8 @@
         android:layout_alignBottom="@+id/num2"
         android:layout_toRightOf="@+id/num2"
         android:layout_toEndOf="@+id/num2"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -155,7 +177,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="20dp"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -165,7 +189,8 @@
         android:layout_alignBottom="@+id/posneg"
         android:layout_toRightOf="@+id/posneg"
         android:layout_toEndOf="@+id/posneg"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -176,7 +201,8 @@
         android:layout_toRightOf="@+id/num0"
         android:layout_toEndOf="@+id/num0"
         android:textSize="20dp"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -186,7 +212,8 @@
         android:layout_above="@+id/num6"
         android:layout_toRightOf="@+id/num9"
         android:layout_toEndOf="@+id/num9"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -197,7 +224,8 @@
         android:layout_toRightOf="@+id/num6"
         android:layout_toEndOf="@+id/num6"
         android:textSize="20dp"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -207,7 +235,8 @@
         android:layout_above="@+id/dot"
         android:layout_alignLeft="@+id/minus"
         android:layout_alignStart="@+id/minus"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -217,7 +246,8 @@
         android:layout_alignBottom="@+id/dot"
         android:layout_alignLeft="@+id/divide"
         android:layout_alignStart="@+id/divide"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="match_parent"
@@ -227,7 +257,9 @@
         android:onClick="onClick"
         android:layout_below="@+id/openBracket"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_red_button"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -237,7 +269,8 @@
         android:onClick="onClick"
         android:layout_below="@+id/dot"
         android:layout_toLeftOf="@+id/sqrt"
-        android:layout_toStartOf="@+id/sqrt" />
+        android:layout_toStartOf="@+id/sqrt"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -247,7 +280,8 @@
         android:layout_alignBottom="@+id/square"
         android:layout_alignLeft="@+id/multiply"
         android:layout_alignStart="@+id/multiply"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -257,7 +291,9 @@
         android:layout_below="@+id/posneg"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -267,7 +303,8 @@
         android:layout_alignBottom="@+id/square"
         android:layout_toRightOf="@+id/openBracket"
         android:layout_toEndOf="@+id/openBracket"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:background="@drawable/button_shape"/>
 
     <Button
         android:layout_width="match_parent"
@@ -277,6 +314,8 @@
         android:layout_below="@+id/equal"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:background="@drawable/rounded_red_button"
+        android:layout_marginTop="20dp"/>
 
 </RelativeLayout>
